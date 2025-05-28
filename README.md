@@ -18,8 +18,8 @@
 克隆仓库：
 
 ``` bash
-git clone https://github.com/yourusername/modern-cpp20-patterns.git
-cd modern-cpp20-patterns
+git clone https://github.com/Charliechen114514/modern-cpp-patterns-playground
+cd modern-cpp-patterns-playground
 ```
 
 ### 使用 CMake 构建并运行测试：
@@ -27,6 +27,9 @@ cd modern-cpp20-patterns
 cmake -S . -B build
 cmake --build build
 ```
+
+### 开始阅读笔者写的一些笔记！
+[Documentations](Documentations)
 
 🛠️ 贡献
 非常欢迎贡献！如果你有改进建议或新的设计模式示例，欢迎提交 issue 或 PR。
