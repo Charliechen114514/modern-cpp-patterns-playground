@@ -1,4 +1,13 @@
-
+/**
+ * @file logger.h
+ * @author Charliechen114514 (chengh1922@mails.jlu.edu.cn)
+ * @brief logger defines here
+ * @version 0.1
+ * @date 2025-05-28
+ *
+ * @copyright Copyright (c) 2025
+ *
+ */
 
 #pragma once
 #include <mutex>
@@ -26,9 +35,4 @@ private:
 	SimpleLogger(const SimpleLogger&) = delete;
 	SimpleLogger(SimpleLogger&&) = delete;
 	SimpleLogger& operator=(SimpleLogger&&) = delete;
-
-	/* datas contains */
-	static std::mutex logger_lock; ///< message locker
-
-	// static SimpleLogger* simpleLogger;
 };
