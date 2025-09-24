@@ -6,6 +6,7 @@ set(CMAKE_BUILD_TYPE "Debug")
 
 message("============== Welcome CCDesignPatter Demos Configurations =========")
 
+add_subdirectory(Document_Demo)
 add_subdirectory(Builder)
 
 message("============== CCDesignPatter Demos Configuration End =========")
